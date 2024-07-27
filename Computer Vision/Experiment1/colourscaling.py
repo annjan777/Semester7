@@ -8,7 +8,7 @@ def display_image(title, image, cmap=None):
     plt.axis('off')
     plt.show()
 # Path to the input image
-image_path = '/Users/annjan/Downloads/culogo.png'
+image_path = '/Users/annjan/Desktop/Semester7/Computer Vision/Experiment1/culogo.png'
 # Reading the image file
 image = cv2.imread(image_path)
 # Converting the image to different color models
